@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+    <title>Valgring95/contact Site</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<ul>
+    <li><a href="index.html">Strona główna</a></li>
+    <br>
+    <li><a href="form.html">Ankieta</a></li>
+    <br>
+    <li><a href="contact.html">Kontakt</a></li>
+</ul>
+
+
+<div class="form">
+    <div class="nagłówek">
+        <h2>Uzupełnij Dane:</h2>
+        <form class="col-12">
+
+            <div class="col-12">
+                <label for="podajImie" class="form-label">Imię:</label>
+                <input type="text" class="form-control" id="podajImie" placeholder="Podaj imie">
+            </div>
+
+            <div class="col-12">
+                <label for="podajNazwisko" class=form-label>Nazwisko:</label>
+                <input type="text" class="form-control" id="podajNazwisko" placeholder="Podaj nazwisko">
+            </div>
+
+            <div class="col-12">
+                <label for="podajEmail" class="form-label">E-mail:</label>
+                <input type="text" class="form-control" id="podajEmail" placeholder="Podaj email">
+            </div>
+
+            <div class="row">
+                <div class="col-sm-6">
+                    <label for="mezczyzna" class=form-label>Mężczyzna</label>
+                    <input type="radio" id="mezczyzna" name="Mężczyzna" value="Mężczyzna" checked>
+                </div>
+
+                <div class="col-sm-6">
+                    <label for="kobieta" class=form-label>Kobieta</label>
+                    <input type="radio" id="kobieta" name="Kobieta" value="Kobieta">
+                </div>
+            </div>
+
+            <label>Opis</label>
+            <div class="col-md-12">
+
+     				<textarea rows="4" cols="35">
+				</textarea>
+            </div>
+            <div class="col-4 mx-auto">
+                <label for="wiek" class=form-label>Wiek</label>
+                <select id="wiek" class="form-select">
+                    <option value>--</option>
+                    <option value>18</option>
+                    <option value>19</option>
+                    <option value>20</option>
+                    <option value>21</option>
+                    <option value>22</option>
+                    <option value>23</option>
+                    <option value>24</option>
+                    <option value>25</option>
+                    <option value>26</option>
+                    <option value>27</option>
+                    <option value>28</option>
+                    <option value>29</option>
+                    <option value>30</option>
+                </select>
+            </div>
+            <div class="col-4 mx-auto">
+                <label for="stanCywilny" class=form-label>Stan cywilny</label>
+                <select id="stanCywilny" class="form-select">
+                    <option value>--</option>
+                    <option value>Panna</option>
+                    <option value>Kawaler</option>
+                    <option value>Wdowiec</option>
+                    <option value>Wdowa</option>
+                    <option value>Rozwiedziony</option>
+                    <option value>Rozwiedziona</option>
+                </select>
+            </div>
+
+        </form>
+    </div>
+
+</div>
+
+<footer class="stopka">
+
+    Copyrights &copy; Dawid Dubarek | 2021
+
+</footer>
+</body>
+</html>

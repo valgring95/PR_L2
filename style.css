@@ -1,1 +1,45 @@
+body {
+    background-color: pink;
+}
 
+p {
+    font-size: 20px;
+}
+
+.lewy {
+    float: left;
+    width: 50%;
+}
+
+.prawy {
+    width: 50%;
+    float: right;
+}
+
+ul li {
+    display: inline;
+}
+
+
+.nagłówek {
+width: 800px;
+    padding: 60px;
+    text-align: center;
+    background: #1abc9c;
+    color: white;
+    font-size: 30px;
+    margin: 0 auto;
+    border: 5px solid black;
+}
+.img {
+    width: 100px;
+    height: auto;
+}
+.stopka {
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
