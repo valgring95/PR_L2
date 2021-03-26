@@ -43,3 +43,12 @@ width: 800px;
     justify-content: center;
 
 }
+
+.scroll {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+}
+html {
+    scroll-behavior: smooth;
+}
